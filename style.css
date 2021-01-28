@@ -51,3 +51,14 @@ header {
   width: 100%;
   margin-bottom: 40px;
 }
+
+/*Logo*/
+
+h1 {
+  position: relative;
+  margin: 45px 0 0 55px;
+}
+.logo img {
+  width: 95px;
+  height: auto;
+}
