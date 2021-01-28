@@ -8,3 +8,39 @@
   font-family: "bld";
   src: url("typo/bold.ttf") format("truetype");
 }
+
+/*Html + Body + Main*/
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "raleway";
+  font-size: 1em;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  overflow-x: hidden;
+}
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h2 {
+  font-size: 1.3em;
+  font-family: "bld";
+  margin: 0;
+}
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
