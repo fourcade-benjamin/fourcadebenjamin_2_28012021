@@ -603,3 +603,351 @@ footer {
 }
 
 /**/
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  /*Logo*/
+
+  .logo {
+    margin: 30px 0 30px 20px;
+  }
+
+  /*Nav*/
+
+  nav {
+    width: 95%;
+  }
+  .ancres {
+    width: 95%;
+    position: relative;
+    top: 40px;
+    justify-content: space-around;
+    padding-left: 0;
+  }
+  .ancres a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: unset;
+  }
+  .ancres a {
+    font-size: 0.9em;
+    border-bottom: solid 2px #f2f2f2;
+  }
+  #h {
+    padding: 0 40px 11px 255px;
+  }
+  #a {
+    padding: 0 255px 11px 60px;
+  }
+  .inscription {
+    font-size: 1em;
+    position: absolute;
+    bottom: 50px;
+    margin: 0;
+  }
+  .ancres li {
+    margin-bottom: 10px;
+  }
+
+  /*Titre*/
+
+  header h2 {
+    width: 80%;
+    margin: 0px 0 14px 20px;
+  }
+  #sous-titre {
+    font-size: 0.83em;
+    margin-left: 20px;
+  }
+
+  /*Rechercher*/
+
+  #form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+  }
+  #form #rechercher {
+    display: none;
+  }
+  .barre-recherche {
+    max-width: 600px;
+    width: 100%;
+    margin: 33px 0 0 20px;
+  }
+  #map {
+    width: 12px;
+    padding: 17.5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  input {
+    max-width: 300px;
+    width: 100%;
+    font-size: 1em;
+    border: solid 1px #f2f2f2;
+    color: black;
+    padding: 15px 15px 15px 16px;
+  }
+  input::placeholder {
+    color: black;
+    font-family: "bld";
+  }
+  .boutton-bleu-recherche {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 40px;
+    background-color: #0065fc;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+    width: 50px;
+    height: 50px;
+  }
+  #loupe {
+    display: inline;
+    width: 16px;
+    height: 16px;
+    filter: invert(98%) sepia(3%) saturate(256%) hue-rotate(6deg)
+      brightness(118%) contrast(100%);
+  }
+
+  /*Filtre*/
+
+  #filtres a {
+    margin-right: 20px;
+  }
+  .barre-filtre {
+    width: 100%;
+    margin-left: 20px;
+    flex-flow: row wrap;
+    margin-bottom: 27px;
+    overflow: hidden;
+    font-size: 1em;
+  }
+  #filtres {
+    padding-right: 15px;
+  }
+  #texte {
+    margin-right: 70px;
+    margin-bottom: 17px;
+  }
+  .bouton p {
+    margin: 0;
+  }
+  #ani p {
+    white-space: nowrap;
+  }
+
+  /*Info*/
+
+  .info {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1em;
+    margin: 0 0 35px 20px;
+  }
+  .rondinfo {
+    border: solid #f2f2f2 2px;
+    margin-right: 10px;
+  }
+  #info {
+    margin: 5px 8px 5px 6px;
+    width: 13px;
+    height: 13px;
+    filter: invert(28%) sepia(41%) saturate(5597%) hue-rotate(208deg)
+      brightness(96%) contrast(108%);
+  }
+
+  /*Centre*/
+
+  .centre {
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+  }
+
+  /*Pop*/
+
+  .pop {
+    width: 100%;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 0;
+    margin: 0;
+    align-items: center;
+  }
+  #pop-titre-icone {
+    padding: 0;
+    width: 80%;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  .pop-box {
+    width: 300px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+  .pop-photo {
+    width: 115px;
+    height: 122px;
+    object-fit: cover;
+    object-position: 60% 30%;
+    margin-left: 4px;
+  }
+  .all-pop-box {
+    margin-bottom: 30px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .pop-info {
+    margin: 17px 0 0 17px;
+  }
+  .pop h3 {
+    margin-bottom: 12px;
+  }
+  .pop-note {
+    margin-top: 20px;
+  }
+
+  /*Heb*/
+
+  .heb {
+    width: 100%;
+    background-color: unset;
+    margin: 0;
+  }
+  .all-heb-box {
+    margin: 0 0px;
+  }
+  .heb h2 {
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+  .heb-box {
+    width: 302px;
+    height: 178px;
+    margin-bottom: 11px;
+  }
+  .heb-photo {
+    width: 290px;
+    height: 104px;
+  }
+  .heb-info {
+    margin-right: 140px;
+  }
+  .heb-info h3 {
+    margin: 6px 0 3px 0;
+    font-size: 0.9em;
+  }
+  #afficher-plus {
+    font-weight: bold;
+    margin: 20px 0 0 20px;
+  }
+  #decalage {
+    margin-right: 110px;
+  }
+
+  /*Act*/
+
+  .act {
+    margin: 50px 0 24px 0;
+    width: 100%;
+  }
+  .act h2 {
+    margin: 0 0 30px 20px;
+  }
+  .act h3 {
+    margin: 13px 0 0 16px;
+  }
+  .all-act-box {
+    margin: 0 0px;
+    width: 100%;
+  }
+  .all-act-box a {
+    margin-bottom: 20px;
+  }
+  #port {
+    height: 170px;
+    margin-bottom: 0px;
+  }
+  #port img {
+    height: 120px;
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+  .fort-ile {
+    margin-bottom: 0px;
+  }
+  #fort {
+    height: 170px;
+  }
+  #fort img {
+    height: 120px;
+    object-fit: cover;
+    object-position: 70% 42%;
+  }
+  #ile {
+    height: 170px;
+  }
+  #ile img {
+    height: 120px;
+    object-fit: cover;
+    object-position: 70% 19%;
+  }
+  #parc {
+    height: 170px;
+  }
+  #parc img {
+    height: 120px;
+    object-fit: cover;
+    object-position: 50% 19%;
+    filter: contrast(90%) saturate(1) brightness(1.4) sepia(0%);
+  }
+  .ndm-long {
+    margin-bottom: 0;
+  }
+  #ndm {
+    height: 170px;
+    margin-bottom: 0px;
+  }
+  #ndm img {
+    height: 120px;
+    object-fit: cover;
+    object-position: 50% 18%;
+  }
+  #long {
+    height: 170px;
+  }
+  #long img {
+    height: 120px;
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+
+  /*Footer*/
+
+  footer {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .footer-titre {
+    margin-bottom: 25px;
+  }
+  .footer {
+    margin-left: 0;
+    padding: 45px 0 30px 0;
+    flex-flow: column wrap;
+  }
+  .footer li {
+    margin-bottom: 16px;
+  }
+  .footer ul {
+    margin-bottom: 30px;
+  }
+}
