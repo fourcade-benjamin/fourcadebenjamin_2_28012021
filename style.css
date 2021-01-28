@@ -100,3 +100,42 @@ header h2 {
 #sous-titre {
   margin-left: 55px;
 }
+
+/*Barre de recherche*/
+
+#map {
+  width: 13px;
+  height: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.barre-recherche {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 55px;
+}
+input {
+  font-size: 1.2em;
+  border: solid 1px #f2f2f2;
+  color: black;
+  padding: 16px 0 16px 18px;
+  background-color: unset;
+}
+input::placeholder {
+  color: black;
+  font-family: "bld";
+}
+.boutton-bleu-recherche {
+  font-size: 1.2em;
+  background-color: #0065fc;
+  border-style: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  padding: 16px 18px 16px 18px;
+}
+#loupe {
+  display: none;
+}
