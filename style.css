@@ -385,3 +385,137 @@ input::placeholder {
 .pop-note {
   margin-top: 35px;
 }
+
+/*Activités à Marseille*/
+
+.act {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.act h3 {
+  margin: 15px 0 0 19px;
+  font-size: 0.9em;
+}
+.act h2 {
+  margin: 0 0 27px 50px;
+}
+.all-act-box {
+  height: auto;
+  margin-left: 20px;
+  padding-right: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#port {
+  border-radius: 15px;
+  width: 302px;
+  height: 445px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #e3e3e3;
+  margin: 5px 5px 40px 5px;
+}
+#port img {
+  width: 302px;
+  height: 390px;
+  object-fit: none;
+  object-position: 50% 25%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#fort {
+  border-radius: 15px;
+  width: 302px;
+  height: 236px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #e3e3e3;
+  margin: 5px 5px;
+}
+#fort img {
+  width: 302px;
+  height: 181px;
+  object-fit: cover;
+  object-position: 70% 40%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#ile {
+  border-radius: 15px;
+  width: 302px;
+  height: 164px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #e3e3e3;
+  margin: 5px 5px;
+}
+#ile img {
+  width: 302px;
+  height: 109px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#parc {
+  border-radius: 15px;
+  width: 302px;
+  height: 445px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #e3e3e3;
+  margin: 5px 5px;
+}
+#parc img {
+  filter: contrast(90%) saturate(1) brightness(1.4) sepia(0%);
+  width: 302px;
+  height: 390px;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#ndm {
+  border-radius: 15px;
+  width: 302px;
+  height: 195px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #e3e3e3;
+  margin: 5px 5px 30px 5px;
+}
+#ndm img {
+  width: 302px;
+  height: 140px;
+  object-fit: cover;
+  object-position: 50% 1%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#long {
+  border-radius: 15px;
+  width: 302px;
+  height: 209px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #e3e3e3;
+  margin: 10px 5px 5px 5px;
+}
+#long img {
+  width: 302px;
+  height: 153px;
+  object-fit: cover;
+  object-position: 50% 10%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.fort-ile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 35px;
+}
+.ndm-long {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 35px;
+}
