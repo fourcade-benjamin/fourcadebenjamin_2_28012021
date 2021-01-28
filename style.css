@@ -91,3 +91,12 @@ nav {
   color: #0065fc;
   margin-left: 45px;
 }
+
+/*Titre*/
+
+header h2 {
+  margin: 0 0 15px 55px;
+}
+#sous-titre {
+  margin-left: 55px;
+}
