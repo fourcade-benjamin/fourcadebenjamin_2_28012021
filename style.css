@@ -549,3 +549,57 @@ footer {
 .footer li {
   margin-bottom: 20px;
 }
+
+/**/
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /*Centre*/
+
+  .centre {
+    flex-flow: column-reverse;
+  }
+
+  /*Les plus populaires*/
+
+  .pop {
+    width: 88%;
+    padding: 0 10px;
+    margin: 0 0 30px 50px;
+  }
+  #pop-titre-icone {
+    margin-top: 40px;
+    padding: 0 45px 0 0;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+  .all-pop-box {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 15px;
+  }
+  .pop-box {
+    margin-right: 30px;
+  }
+
+  /*Hébergements à Marseille*/
+
+  .heb {
+    width: 90%;
+    margin-left: 50px;
+  }
+
+  /*Activités à Marseille*/
+
+  .all-act-box {
+    width: 90%;
+    margin-left: 55px;
+  }
+
+  /*Footer*/
+
+  .footer {
+    min-width: unset;
+  }
+}
+
+/**/
