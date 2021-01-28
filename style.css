@@ -599,6 +599,7 @@ footer {
 
   .footer {
     min-width: unset;
+    padding-right: 85px;
   }
 }
 
@@ -705,8 +706,8 @@ footer {
     border-style: none;
     border-radius: 15px;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
   }
   #loupe {
     display: inline;
@@ -771,6 +772,9 @@ footer {
     margin-bottom: 50px;
     flex-direction: column-reverse;
   }
+  .nuit {
+    font-size: 0.8em;
+  }
 
   /*Pop*/
 
@@ -805,14 +809,14 @@ footer {
     flex-direction: column;
     padding: 0;
   }
+  .pop h3 {
+    font-size: 0.9em;
+  }
   .pop-info {
     margin: 17px 0 0 17px;
   }
-  .pop h3 {
-    margin-bottom: 12px;
-  }
   .pop-note {
-    margin-top: 20px;
+    margin-top: 28px;
   }
 
   /*Heb*/
@@ -842,8 +846,11 @@ footer {
     margin-right: 140px;
   }
   .heb-info h3 {
-    margin: 6px 0 3px 0;
+    margin: 10px 0 1px 0;
     font-size: 0.9em;
+  }
+  .heb-note {
+    margin-top: 3.5px;
   }
   #afficher-plus {
     font-weight: bold;
