@@ -1,0 +1,10 @@
+/* Typo Raleway + Raleway bold*/
+
+@font-face {
+  font-family: "raleway";
+  src: url("typo/reg.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bld";
+  src: url("typo/bold.ttf") format("truetype");
+}
