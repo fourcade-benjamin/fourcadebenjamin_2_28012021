@@ -62,3 +62,32 @@ h1 {
   width: 95px;
   height: auto;
 }
+
+/*Ancres de navigation 'Hébergement + Activités' */
+
+nav {
+  position: relative;
+  bottom: 60px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ancres {
+  display: flex;
+  flex-direction: row;
+}
+.ancres a {
+  padding: 0 35px;
+}
+.ancres a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding-top: 50px;
+}
+.inscription {
+  font-family: "bld";
+  color: #0065fc;
+  margin-left: 45px;
+}
