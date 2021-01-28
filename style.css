@@ -225,3 +225,18 @@ input::placeholder {
   position: relative;
   top: 5px;
 }
+
+/*Section centrale 'Hebergements à Marseille + Les plus populaires' */
+
+.centre {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.bold {
+  font-weight: bold;
+}
+.nuit {
+  font-size: 0.88em;
+}
