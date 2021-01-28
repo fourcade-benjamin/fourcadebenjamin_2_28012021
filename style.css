@@ -240,3 +240,78 @@ input::placeholder {
 .nuit {
   font-size: 0.88em;
 }
+
+/*Hébergements à Marseille*/
+
+.heb {
+  margin: 0 40px 0 50px;
+  width: 880px;
+  height: auto;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.heb h2 {
+  margin: 47px 0 23px 47px;
+}
+.all-heb-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 20px;
+  width: 100%;
+  height: auto;
+}
+.heb-box {
+  width: 246px;
+  height: 199px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  border-radius: 16px;
+  margin: 0 5px 30px 5px;
+  box-shadow: 2px 2px 20px #e3e3e3;
+}
+.heb-photo {
+  width: 236px;
+  height: 114px;
+  object-fit: cover;
+  object-position: 50% 48%;
+  margin-top: 5px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+#decalage {
+  margin-right: 30px;
+}
+.heb-info {
+  margin-right: 80px;
+}
+.heb-info h3 {
+  margin: 12px 0 3px 0;
+}
+.heb-note {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.heb-note img {
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+.bluestar {
+  filter: invert(28%) sepia(41%) saturate(5597%) hue-rotate(208deg)
+    brightness(96%) contrast(108%);
+}
+.greystar {
+  filter: invert(100%) sepia(4%) saturate(1001%) hue-rotate(292deg)
+    brightness(85%) contrast(103%);
+}
+#afficher-plus {
+  font-weight: bold;
+  margin: 14px 0 46px 44px;
+}
