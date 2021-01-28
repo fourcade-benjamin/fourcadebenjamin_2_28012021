@@ -197,3 +197,31 @@ input::placeholder {
   color: #0065fc;
   background-color: #fafafa;
 }
+
+/*Rond information*/
+
+.info {
+  margin: 15px 0 0 60px;
+}
+.rondinfo {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border: solid #f2f2f2 2px;
+  border-radius: 14px;
+  margin-right: 12px;
+}
+#info {
+  margin: 6px 5px 0 6px;
+  width: 14px;
+  height: 14px;
+  filter: invert(28%) sepia(41%) saturate(5597%) hue-rotate(208deg)
+    brightness(96%) contrast(108%);
+}
+.info p {
+  margin: 0;
+}
+.info span {
+  position: relative;
+  top: 5px;
+}
