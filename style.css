@@ -1,4 +1,4 @@
-/* Typo Raleway + Raleway bold*/
+/*Typo Raleway + Raleway bold*/
 
 @font-face {
   font-family: "raleway";
@@ -17,7 +17,6 @@ html {
 }
 body {
   font-family: "raleway";
-  font-size: 1em;
   width: 100vw;
   height: 100vh;
   margin: auto;
@@ -63,7 +62,7 @@ h1 {
   height: auto;
 }
 
-/*Ancres de navigation 'Hébergement + Activités' */
+/*Ancres de navigation 'Hébergement + Activités'*/
 
 nav {
   position: relative;
@@ -226,7 +225,7 @@ input::placeholder {
   top: 5px;
 }
 
-/*Section centrale 'Hebergements à Marseille + Les plus populaires' */
+/*Section centrale 'Hebergements à Marseille + Les plus populaires'*/
 
 .centre {
   width: 100%;
@@ -528,7 +527,7 @@ footer {
   padding-left: 50px;
 }
 .footer {
-  padding: 50px 410px 35px 0;
+  padding: 50px 400px 35px 0;
   margin: auto;
   max-width: 1020px;
   min-width: 950px;
@@ -542,7 +541,6 @@ footer {
   padding: 0;
 }
 .footer-titre {
-  margin-bottom: 23px;
   font-family: "bld";
   font-size: 1.1em;
 }
@@ -567,10 +565,8 @@ footer {
     margin: 0 0 30px 50px;
   }
   #pop-titre-icone {
-    margin-top: 40px;
+    margin: 40px 0 25px 40px;
     padding: 0 45px 0 0;
-    justify-content: space-between;
-    margin-left: 40px;
   }
   .all-pop-box {
     flex-flow: row wrap;
@@ -606,10 +602,6 @@ footer {
 /**/
 
 @media screen and (max-width: 768px) {
-  header {
-    width: 100%;
-  }
-
   /*Logo*/
 
   .logo {
@@ -626,7 +618,6 @@ footer {
     position: relative;
     top: 40px;
     justify-content: space-around;
-    padding-left: 0;
   }
   .ancres a:hover {
     border-bottom: 2px solid #0065fc;
@@ -643,7 +634,6 @@ footer {
     padding: 0 255px 11px 60px;
   }
   .inscription {
-    font-size: 1em;
     position: absolute;
     bottom: 50px;
     margin: 0;
@@ -688,8 +678,6 @@ footer {
     max-width: 300px;
     width: 100%;
     font-size: 1em;
-    border: solid 1px #f2f2f2;
-    color: black;
     padding: 15px 15px 15px 16px;
   }
   input::placeholder {
@@ -702,10 +690,7 @@ footer {
     justify-content: center;
     align-items: center;
     right: 40px;
-    background-color: #0065fc;
-    border-style: none;
     border-radius: 15px;
-    color: white;
     width: 51px;
     height: 51px;
   }
@@ -725,7 +710,6 @@ footer {
   .barre-filtre {
     width: 100%;
     margin-left: 20px;
-    flex-flow: row wrap;
     margin-bottom: 27px;
     overflow: hidden;
     font-size: 1em;
@@ -734,8 +718,7 @@ footer {
     padding-right: 15px;
   }
   #texte {
-    margin-right: 70px;
-    margin-bottom: 17px;
+    margin: 0 70px 17px 0;
   }
   .bouton p {
     margin: 0;
@@ -751,19 +734,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    font-size: 1em;
     margin: 0 0 35px 20px;
   }
   .rondinfo {
-    border: solid #f2f2f2 2px;
     margin-right: 10px;
   }
   #info {
     margin: 5px 8px 5px 6px;
     width: 13px;
     height: 13px;
-    filter: invert(28%) sepia(41%) saturate(5597%) hue-rotate(208deg)
-      brightness(96%) contrast(108%);
   }
 
   /*Centre*/
@@ -781,7 +760,6 @@ footer {
   .pop {
     width: 100%;
     flex-direction: column;
-    background-color: #f2f2f2;
     border-radius: 0;
     margin: 0;
     align-items: center;
@@ -789,8 +767,6 @@ footer {
   #pop-titre-icone {
     padding: 0;
     width: 80%;
-    margin-top: 40px;
-    justify-content: space-between;
   }
   .pop-box {
     width: 300px;
@@ -800,8 +776,6 @@ footer {
   .pop-photo {
     width: 115px;
     height: 122px;
-    object-fit: cover;
-    object-position: 60% 30%;
     margin-left: 4px;
   }
   .all-pop-box {
@@ -830,8 +804,7 @@ footer {
     margin: 0 0px;
   }
   .heb h2 {
-    margin-top: 35px;
-    margin-left: 20px;
+    margin: 35px 0 23px 20px;
   }
   .heb-box {
     width: 302px;
@@ -853,7 +826,6 @@ footer {
     margin-top: 3.5px;
   }
   #afficher-plus {
-    font-weight: bold;
     margin: 20px 0 0 20px;
   }
   #decalage {
@@ -864,7 +836,6 @@ footer {
 
   .act {
     margin: 50px 0 24px 0;
-    width: 100%;
   }
   .act h2 {
     margin: 0 0 30px 20px;
@@ -896,7 +867,6 @@ footer {
   }
   #fort img {
     height: 120px;
-    object-fit: cover;
     object-position: 70% 42%;
   }
   #ile {
@@ -904,7 +874,6 @@ footer {
   }
   #ile img {
     height: 120px;
-    object-fit: cover;
     object-position: 70% 19%;
   }
   #parc {
@@ -912,9 +881,7 @@ footer {
   }
   #parc img {
     height: 120px;
-    object-fit: cover;
     object-position: 50% 19%;
-    filter: contrast(90%) saturate(1) brightness(1.4) sepia(0%);
   }
   .ndm-long {
     margin-bottom: 0;
@@ -925,7 +892,6 @@ footer {
   }
   #ndm img {
     height: 120px;
-    object-fit: cover;
     object-position: 50% 18%;
   }
   #long {
@@ -933,14 +899,12 @@ footer {
   }
   #long img {
     height: 120px;
-    object-fit: cover;
     object-position: 50% 25%;
   }
 
   /*Footer*/
 
   footer {
-    width: 100%;
     padding-left: 30px;
   }
   .footer-titre {
